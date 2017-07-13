@@ -77,5 +77,5 @@ function output(x) {
   .forEach(printResult);
 
 function printResult(obj) {
-    output(obj + ", gcd = " + obj.gcd() + ", lcm = " + obj.lcm(), 2);
+    output(obj + ", gcd = " + obj.gcd() + ", lcm = " + obj.lcm());
 }
